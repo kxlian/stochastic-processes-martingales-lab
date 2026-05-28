@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stochastic-processes-martingales-lab"
+version = "0.1.0"
+description = "Proof-driven stochastic processes and martingales lab with simulations."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
